@@ -11,7 +11,9 @@ status](https://travis-ci.com/milanwiedemann/questionnaires.svg?branch=master)](
 status](https://ci.appveyor.com/api/projects/status/github/milanwiedemann/questionnaires?branch=master&svg=true)](https://ci.appveyor.com/project/milanwiedemann/questionnaires)
 <!-- badges: end -->
 
-The goal of questionnaires is to …
+The goal is to provide a catalogue of questionnaire details (e.g item
+labels, response categories, references, and more) to speed up the
+reporting of results.
 
 ## Installation
 
@@ -66,3 +68,11 @@ Most clients showed most improvement on item 1 of the GAD-7 (*"`r questionnaires
 
 Most clients showed most improvement on item 1 of the GAD-7 (*“Feeling
 nervous, anxious or on edge”*)
+
+## How to add more questionnaires
+
+A new questionnaire can be added to this library by creating a dataset
+with all information in the
+[`create-measures.R`](data-raw/create-measures.R) in the `data-raw`
+folder of this repositoty. Details for a new dataset needs to be added
+to [`data.R`](data/data.R) file in the data folder of this repositoty.
