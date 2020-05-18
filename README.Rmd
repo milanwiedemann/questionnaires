@@ -1,0 +1,91 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# questionnaires: An R data package full of questionnaires
+
+<!-- badges: start -->
+[![Travis build status](https://travis-ci.com/milanwiedemann/questionnaires.svg?branch=master)](https://travis-ci.com/milanwiedemann/questionnaires)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/milanwiedemann/questionnaires?branch=master&svg=true)](https://ci.appveyor.com/project/milanwiedemann/questionnaires)
+<!-- badges: end -->
+
+The goal of questionnaires is to ...
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/milanwiedemann/questionnaires) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("milanwiedemann/questionnaires")
+```
+
+## Examples
+
+<!-- ### Creating figures -->
+
+
+```{r include=FALSE}
+# First simulate some data ----
+set.seed(123)
+library(tidyverse)
+
+# Simulate item by item data
+sim_items <- function(n_items, n_ids, item_range, measure = "measure", item_weight = NULL, id_weight = NULL) {
+    
+  1:n_items %>%
+        
+  lapply(function(x) sample(item_range, 
+                            n_ids, 
+                            replace = TRUE,
+                            prob = item_weight)) %>% 
+        
+    as.data.frame(col.names = paste0(measure, "_i", 1:n_items),
+                  
+                  row.names = paste0("id_", 1:n_ids))
+}
+
+sim_items(n_items = 4, n_ids = 3, measure = "gad7", item_range = 0:3)
+    
+
+seq_along(4)
+
+```
+
+
+### Creating Tables
+
+This is a basic example which shows you how to create a table for the PHQ-9:
+
+```{r phq9-table-example}
+# Load packages ----
+library(questionnaires) # For questionnaire data
+library(dplyr) # For data manipulation
+library(knitr) # For creating tables
+
+phq9 %>%
+    select(item_number, item_label_long) %>% 
+    kable(col.names = c("Item", "Description"))
+
+```
+
+### Reference items in text 
+
+Writing in RMardown it's easy to reference item labels in text using the following:
+
+```{r, eval=FALSE}
+Most clients showed most improvement on item 1 of the GAD-7 (*"`r questionnaires::gad7[[1, 4]]`"*)
+```
+
+Most clients showed most improvement on item 1 of the GAD-7 (*"`r questionnaires::gad7[[1, 4]]`"*)
