@@ -27,7 +27,27 @@ devtools::install_github("milanwiedemann/questionnaires")
 
 ## Examples
 
-<!-- ### Creating figures -->
+### Creating figures
+
+``` r
+# Load packages
+library(ggplot2)
+library(tibble)
+library(questionnaires)
+set.seed(1234)
+
+# Create some data
+df <- tibble(item = 1:7,
+             score = sample(1:3, 7, replace = T))
+
+# Create figure using short labels from gad7
+ggplot(df, aes(x = factor(item), y = score, fill = factor(item))) +
+  geom_bar(stat="identity") +
+  ggplot2::scale_fill_viridis_d(labels = gad7$item_label_short) +
+  labs(x = "Item", y = "GAD-7", fill = "")
+```
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="80%" />
 
 ### Creating Tables
 
@@ -69,7 +89,7 @@ Most clients showed most improvement on item 1 of the GAD-7 (*"`r questionnaires
 Most clients showed most improvement on item 1 of the GAD-7 (*“Feeling
 nervous, anxious or on edge”*)
 
-## How to add more questionnaires
+## How to contribute / add more questionnaires
 
 A new questionnaire can be added to this library by creating a dataset
 with all information in the
