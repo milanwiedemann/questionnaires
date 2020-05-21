@@ -76,3 +76,21 @@ with all information in the
 [`create-measures.R`](data-raw/create-measures.R) in the `data-raw`
 folder of this repositoty. Details for a new dataset needs to be added
 to [`data.R`](R/data.R) file in the data folder of this repositoty.
+
+## TODO / TOTHINK
+
+  - Which licence would be appropriate for a data package like this?
+  - What are the legal challanges with copyright, license fees … and
+    does it even matter for a project like this?
+  - Which information about a measure should be available in the help
+    files, e.g. internal consistentcy, test-retest reliability, cutoffs,
+    … ?
+  - How to best name data sets so it doesn’t get confusing, e.g. `gad7`
+    vs `general_health_anxiety_questionnaire_7item`?
+  - What’s a good package name, e.g. `measureme`, `measureR`, `measuRes`
+    vs `questionnaires`?
+  - What’s the best data structure to store this information, especially
+    when questionnaires are not straightforward, e.g. different repsonse
+    categories for each item?
+  - How could different languages of the same questionnaire be
+    integrated, e.g. suffix `_en` for English, `_de` for German?
