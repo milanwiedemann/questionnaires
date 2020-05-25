@@ -44,7 +44,7 @@ df <- tibble(item = 1:7,
 ggplot(df, aes(x = factor(item), y = score, fill = factor(item))) +
   geom_bar(stat="identity") +
   ggplot2::scale_fill_viridis_d(labels = gad7$item_label_short) +
-  labs(x = "Item", y = "GAD-7", fill = "")
+  labs(x = "Item", y = "Score", fill = gad7$measure)
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="80%" />
@@ -105,9 +105,9 @@ to [`data.R`](R/data.R) file in the data folder of this repositoty.
   - Which information about a measure should be available in the help
     files, e.g. internal consistentcy, test-retest reliability, cutoffs,
     … ?
-  - How to best name data sets so it doesn’t get confusing, e.g. `gad7`
+  - How to best name data sets so it doesn’t get confusing, e.g. `gad7`
     vs `general_health_anxiety_questionnaire_7item`?
-  - What’s a good package name, e.g. `measureme`, `measureR`, `measuRes`
+  - What’s a good package name, e.g. `measureme`, `measureR`, `measuRes`
     vs `questionnaires`?
   - What’s the best data structure to store this information, especially
     when questionnaires are not straightforward, e.g. different repsonse

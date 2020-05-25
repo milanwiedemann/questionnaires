@@ -50,7 +50,7 @@ df <- tibble(item = 1:7,
 ggplot(df, aes(x = factor(item), y = score, fill = factor(item))) +
   geom_bar(stat="identity") +
   ggplot2::scale_fill_viridis_d(labels = gad7$item_label_short) +
-  labs(x = "Item", y = "GAD-7", fill = "")
+  labs(x = "Item", y = "Score", fill = gad7$measure)
 ```
 
 
