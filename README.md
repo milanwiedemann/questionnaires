@@ -53,8 +53,7 @@ df <- tibble(item = 1:7,
 ggplot(df, aes(x = factor(item), y = score, fill = factor(item))) +
   geom_bar(stat="identity") +
   ggplot2::scale_fill_viridis_d(labels = gad7$item_label_short) +
-  labs(x = "Item", y = "Score", fill = gad7$measure)
-#> Warning: Unknown or uninitialised column: `measure`.
+  labs(x = "Item", y = "Score", fill = gad7$measure_short)
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="80%" />
