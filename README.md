@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# questionnaires: An R data package full of questionnaires
+# An R data package full of questionnaires
 
 <!-- badges: start -->
 
@@ -13,7 +13,7 @@ status](https://ci.appveyor.com/api/projects/status/github/milanwiedemann/questi
 
 The goal is to provide a catalogue of questionnaire details (e.g item
 labels, response categories, references, and more) to speed up the
-reporting of results.
+analysis and reporting of results.
 
 ## Installation
 
@@ -24,6 +24,14 @@ You can install the development version from
 # install.packages("devtools")
 devtools::install_github("milanwiedemann/questionnaires")
 ```
+
+# Available Questionnaires
+
+  - Patient Health Questionnaire–9 (PHQ-9; Kroenke, Spitzer, & Williams,
+    [2001](https://doi.org/10.1046/j.1525-1497.2001.016009606.x))
+  - Generalized Anxiety Disorder 7-item scale (GAD-7; Spitzer, Kroenke,
+    Williams, & Löwe,
+    [2006](https://doi.org/10.1001/archinte.166.10.1092))
 
 ## Examples
 
@@ -45,6 +53,7 @@ ggplot(df, aes(x = factor(item), y = score, fill = factor(item))) +
   geom_bar(stat="identity") +
   ggplot2::scale_fill_viridis_d(labels = gad7$item_label_short) +
   labs(x = "Item", y = "Score", fill = gad7$measure)
+#> Warning: Unknown or uninitialised column: `measure`.
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="80%" />
@@ -87,7 +96,7 @@ Most clients showed most improvement on item 1 of the GAD-7 (*"`r questionnaires
 ```
 
 Most clients showed most improvement on item 1 of the GAD-7 (*“Feeling
-nervous, anxious or on edge”*)
+nervous, anxious”*)
 
 ## How to contribute / add more questionnaires
 
@@ -114,3 +123,5 @@ to [`data.R`](R/data.R) file in the data folder of this repositoty.
     categories for each item?
   - How could different languages of the same questionnaire be
     integrated, e.g. suffix `_en` for English, `_de` for German?
+  - This could also be integrated in a shiny app or similar, what are
+    the implications of this?
