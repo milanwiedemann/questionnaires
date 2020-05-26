@@ -1,0 +1,37 @@
+item_number,measure_short,measure_long,item_label_short,item_label_long,item_value,item_value_label
+1,PHQ-9,Patient Health Questionnaire 9-item scale,Little interest or pleasure,Little interest or pleasure in doing things,0,Not at all
+1,PHQ-9,Patient Health Questionnaire 9-item scale,Little interest or pleasure,Little interest or pleasure in doing things,1,Several days
+1,PHQ-9,Patient Health Questionnaire 9-item scale,Little interest or pleasure,Little interest or pleasure in doing things,2,More than half the days
+1,PHQ-9,Patient Health Questionnaire 9-item scale,Little interest or pleasure,Little interest or pleasure in doing things,3,Nearly every day
+2,PHQ-9,Patient Health Questionnaire 9-item scale,"Feeling down, depressed, or hopeless","Feeling down, depressed, or hopeless",0,Not at all
+2,PHQ-9,Patient Health Questionnaire 9-item scale,"Feeling down, depressed, or hopeless","Feeling down, depressed, or hopeless",1,Several days
+2,PHQ-9,Patient Health Questionnaire 9-item scale,"Feeling down, depressed, or hopeless","Feeling down, depressed, or hopeless",2,More than half the days
+2,PHQ-9,Patient Health Questionnaire 9-item scale,"Feeling down, depressed, or hopeless","Feeling down, depressed, or hopeless",3,Nearly every day
+3,PHQ-9,Patient Health Questionnaire 9-item scale,Sleep problems,"Trouble falling or staying asleep, or sleeping too much",0,Not at all
+3,PHQ-9,Patient Health Questionnaire 9-item scale,Sleep problems,"Trouble falling or staying asleep, or sleeping too much",1,Several days
+3,PHQ-9,Patient Health Questionnaire 9-item scale,Sleep problems,"Trouble falling or staying asleep, or sleeping too much",2,More than half the days
+3,PHQ-9,Patient Health Questionnaire 9-item scale,Sleep problems,"Trouble falling or staying asleep, or sleeping too much",3,Nearly every day
+4,PHQ-9,Patient Health Questionnaire 9-item scale,Tired or little energy,Feeling tired or having little energy,0,Not at all
+4,PHQ-9,Patient Health Questionnaire 9-item scale,Tired or little energy,Feeling tired or having little energy,1,Several days
+4,PHQ-9,Patient Health Questionnaire 9-item scale,Tired or little energy,Feeling tired or having little energy,2,More than half the days
+4,PHQ-9,Patient Health Questionnaire 9-item scale,Tired or little energy,Feeling tired or having little energy,3,Nearly every day
+5,PHQ-9,Patient Health Questionnaire 9-item scale,Poor appetite or overeating,Poor appetite or overeating,0,Not at all
+5,PHQ-9,Patient Health Questionnaire 9-item scale,Poor appetite or overeating,Poor appetite or overeating,1,Several days
+5,PHQ-9,Patient Health Questionnaire 9-item scale,Poor appetite or overeating,Poor appetite or overeating,2,More than half the days
+5,PHQ-9,Patient Health Questionnaire 9-item scale,Poor appetite or overeating,Poor appetite or overeating,3,Nearly every day
+6,PHQ-9,Patient Health Questionnaire 9-item scale,Feeling bad about yourself,Feeling bad about yourself — or that you are a failure or have let yourself or your family down,0,Not at all
+6,PHQ-9,Patient Health Questionnaire 9-item scale,Feeling bad about yourself,Feeling bad about yourself — or that you are a failure or have let yourself or your family down,1,Several days
+6,PHQ-9,Patient Health Questionnaire 9-item scale,Feeling bad about yourself,Feeling bad about yourself — or that you are a failure or have let yourself or your family down,2,More than half the days
+6,PHQ-9,Patient Health Questionnaire 9-item scale,Feeling bad about yourself,Feeling bad about yourself — or that you are a failure or have let yourself or your family down,3,Nearly every day
+7,PHQ-9,Patient Health Questionnaire 9-item scale,Trouble concentrating,"Trouble concentrating on things, such as reading the newspaper or watching television",0,Not at all
+7,PHQ-9,Patient Health Questionnaire 9-item scale,Trouble concentrating,"Trouble concentrating on things, such as reading the newspaper or watching television",1,Several days
+7,PHQ-9,Patient Health Questionnaire 9-item scale,Trouble concentrating,"Trouble concentrating on things, such as reading the newspaper or watching television",2,More than half the days
+7,PHQ-9,Patient Health Questionnaire 9-item scale,Trouble concentrating,"Trouble concentrating on things, such as reading the newspaper or watching television",3,Nearly every day
+8,PHQ-9,Patient Health Questionnaire 9-item scale,Moving or speaking so slowly or being so fidgety or restless,Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual,0,Not at all
+8,PHQ-9,Patient Health Questionnaire 9-item scale,Moving or speaking so slowly or being so fidgety or restless,Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual,1,Several days
+8,PHQ-9,Patient Health Questionnaire 9-item scale,Moving or speaking so slowly or being so fidgety or restless,Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual,2,More than half the days
+8,PHQ-9,Patient Health Questionnaire 9-item scale,Moving or speaking so slowly or being so fidgety or restless,Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual,3,Nearly every day
+9,PHQ-9,Patient Health Questionnaire 9-item scale,Suicidality,Thoughts that you would be better off dead or of hurting yourself in some way,0,Not at all
+9,PHQ-9,Patient Health Questionnaire 9-item scale,Suicidality,Thoughts that you would be better off dead or of hurting yourself in some way,1,Several days
+9,PHQ-9,Patient Health Questionnaire 9-item scale,Suicidality,Thoughts that you would be better off dead or of hurting yourself in some way,2,More than half the days
+9,PHQ-9,Patient Health Questionnaire 9-item scale,Suicidality,Thoughts that you would be better off dead or of hurting yourself in some way,3,Nearly every day

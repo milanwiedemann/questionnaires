@@ -58,5 +58,9 @@ NULL
 #'   5-9 \tab Mild anxiety \cr
 #'   10-14 \tab Moderate anxiety \cr
 #'   15-27 \tab Severe anxiety
-#'}#' @references Spitzer, R. L., Kroenke, K., Williams, J. B. W., & Löwe, B. (2006). A brief measure for assessing generalized anxiety disorder: The GAD-7. Archives of Internal Medicine, 166, 1092–1097. \url{https://doi.org/10.1001/archinte.166.10.1092}
+#'}
+#' @references Spitzer, R. L., Kroenke, K., Williams, J. B. W., & Löwe, B. (2006). A brief measure for assessing generalized anxiety disorder: The GAD-7. Archives of Internal Medicine, 166, 1092–1097. \url{https://doi.org/10.1001/archinte.166.10.1092}
+#'
+#' The Improving Access to Psychological Therapies Manual (March 2020). Version number: 4 \url{https://www.england.nhs.uk/publication/the-improving-access-to-psychological-therapies-manual/}
+
 "gad7"

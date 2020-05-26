@@ -1,0 +1,29 @@
+item_number,measure_short,measure_long,item_label_short,item_label_long,item_value,item_value_label
+1,GAD-7,Generalized Anxiety Disorder 7-item scale,"Feeling nervous, anxious","Feeling nervous, anxious or on edge",0,Not at all
+1,GAD-7,Generalized Anxiety Disorder 7-item scale,"Feeling nervous, anxious","Feeling nervous, anxious or on edge",1,Several days
+1,GAD-7,Generalized Anxiety Disorder 7-item scale,"Feeling nervous, anxious","Feeling nervous, anxious or on edge",2,More than half the days
+1,GAD-7,Generalized Anxiety Disorder 7-item scale,"Feeling nervous, anxious","Feeling nervous, anxious or on edge",3,Nearly every day
+2,GAD-7,Generalized Anxiety Disorder 7-item scale,Not able to control worrying,Not being able to stop or control worrying,0,Not at all
+2,GAD-7,Generalized Anxiety Disorder 7-item scale,Not able to control worrying,Not being able to stop or control worrying,1,Several days
+2,GAD-7,Generalized Anxiety Disorder 7-item scale,Not able to control worrying,Not being able to stop or control worrying,2,More than half the days
+2,GAD-7,Generalized Anxiety Disorder 7-item scale,Not able to control worrying,Not being able to stop or control worrying,3,Nearly every day
+3,GAD-7,Generalized Anxiety Disorder 7-item scale,Worrying about different things,Worrying too much about different things,0,Not at all
+3,GAD-7,Generalized Anxiety Disorder 7-item scale,Worrying about different things,Worrying too much about different things,1,Several days
+3,GAD-7,Generalized Anxiety Disorder 7-item scale,Worrying about different things,Worrying too much about different things,2,More than half the days
+3,GAD-7,Generalized Anxiety Disorder 7-item scale,Worrying about different things,Worrying too much about different things,3,Nearly every day
+4,GAD-7,Generalized Anxiety Disorder 7-item scale,Trouble relaxing,Trouble relaxing,0,Not at all
+4,GAD-7,Generalized Anxiety Disorder 7-item scale,Trouble relaxing,Trouble relaxing,1,Several days
+4,GAD-7,Generalized Anxiety Disorder 7-item scale,Trouble relaxing,Trouble relaxing,2,More than half the days
+4,GAD-7,Generalized Anxiety Disorder 7-item scale,Trouble relaxing,Trouble relaxing,3,Nearly every day
+5,GAD-7,Generalized Anxiety Disorder 7-item scale,Being so restless,Being so restless that it is hard to sit still,0,Not at all
+5,GAD-7,Generalized Anxiety Disorder 7-item scale,Being so restless,Being so restless that it is hard to sit still,1,Several days
+5,GAD-7,Generalized Anxiety Disorder 7-item scale,Being so restless,Being so restless that it is hard to sit still,2,More than half the days
+5,GAD-7,Generalized Anxiety Disorder 7-item scale,Being so restless,Being so restless that it is hard to sit still,3,Nearly every day
+6,GAD-7,Generalized Anxiety Disorder 7-item scale,Easily annoyed or irritable,Becoming easily annoyed or irritable,0,Not at all
+6,GAD-7,Generalized Anxiety Disorder 7-item scale,Easily annoyed or irritable,Becoming easily annoyed or irritable,1,Several days
+6,GAD-7,Generalized Anxiety Disorder 7-item scale,Easily annoyed or irritable,Becoming easily annoyed or irritable,2,More than half the days
+6,GAD-7,Generalized Anxiety Disorder 7-item scale,Easily annoyed or irritable,Becoming easily annoyed or irritable,3,Nearly every day
+7,GAD-7,Generalized Anxiety Disorder 7-item scale,Feeling afraid,Feeling afraid as if something awful might happen,0,Not at all
+7,GAD-7,Generalized Anxiety Disorder 7-item scale,Feeling afraid,Feeling afraid as if something awful might happen,1,Several days
+7,GAD-7,Generalized Anxiety Disorder 7-item scale,Feeling afraid,Feeling afraid as if something awful might happen,2,More than half the days
+7,GAD-7,Generalized Anxiety Disorder 7-item scale,Feeling afraid,Feeling afraid as if something awful might happen,3,Nearly every day

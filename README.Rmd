@@ -13,14 +13,14 @@ knitr::opts_chunk$set(
 )
 ```
 
-# questionnaires: An R data package full of questionnaires
+# An R data package full of questionnaires
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.com/milanwiedemann/questionnaires.svg?branch=master)](https://travis-ci.com/milanwiedemann/questionnaires)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/milanwiedemann/questionnaires?branch=master&svg=true)](https://ci.appveyor.com/project/milanwiedemann/questionnaires)
 <!-- badges: end -->
 
-The goal is to provide a catalogue of questionnaire details (e.g item labels, response categories, references, and more) to speed up the reporting of results.
+The goal is to provide a catalogue of questionnaire details (e.g item labels, response categories, references, and more) to speed up the analysis and reporting of results.
 
 ## Installation
 
@@ -124,3 +124,4 @@ Details for a new dataset needs to be added to [`data.R`](R/data.R) file in the 
 - What's a good package name, e.g. `measureme`, `measureR`, `measuRes` vs `questionnaires`?
 - What's the best data structure to store this information, especially when questionnaires are not straightforward, e.g. different repsonse categories for each item?
 - How could different languages of the same questionnaire be integrated, e.g. suffix `_en` for English, `_de` for German?
+- This could also be integrated in a shiny app or similar, what are the implications of this?

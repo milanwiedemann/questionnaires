@@ -1,15 +1,12 @@
 library(tidyverse)
 
-## PHQ-9 ----
-
-# Not at all
-# Several days
-# More than half the days
-# Nearly every day
+# @ Depression Measures ----
+## Patient Health Questionnaire 9-item scale (PHQ-9) ----
 
 phq9 <- tibble(
   item_number = c(1:9),
-  measure = "PHQ-9",
+  measure_short = "PHQ-9",
+  measure_long = "Patient Health Questionnaire 9-item scale",
   item_label_short = c(
     "Little interest or pleasure",
     "Feeling down, depressed, or hopeless",
@@ -31,25 +28,43 @@ phq9 <- tibble(
     "Trouble concentrating on things, such as reading the newspaper or watching television",
     "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual",
     "Thoughts that you would be better off dead or of hurting yourself in some way"
+  ),
+  item_value_label = list(
+    c("Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    )
   )
 )
 
 
+phq9_unnest <- phq9 %>%
+  unnest(item_value_label) %>%
+  mutate(item_value_label = as.character(item_value_label),
+         item_value = rep(0:3, 9)) %>%
+  select(
+    item_number,
+    measure_short,
+    measure_long,
+    item_label_short,
+    item_label_long,
+    item_value,
+    item_value_label
+  )
 
-write_csv(phq9, "data-raw/phq9.csv")
+write_csv(phq9_unnest, "data-raw/phq9_unnest.csv")
 usethis::use_data(phq9, overwrite = TRUE)
 
 
-## GAD-7 ----
+# @ Anxiety Measures ----
 
-# Not at all
-# Several days
-# More than half the days
-# Nearly every day
+# Generalized Anxiety Disorder 7-item scale (GAD-7) ----
 
 gad7 <- tibble(
   item_number = c(1:7),
-  measure = "GAD-7",
+  measure_short = "GAD-7",
+  measure_long = "Generalized Anxiety Disorder 7-item scale",
   item_label_short = c(
     "Feeling nervous, anxious",
     "Not able to control worrying",
@@ -67,13 +82,30 @@ gad7 <- tibble(
     "Being so restless that it is hard to sit still",
     "Becoming easily annoyed or irritable",
     "Feeling afraid as if something awful might happen"
+  ),
+  item_value_label = list(
+    c("Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    )
   )
 )
 
+gad7_unnest <- gad7 %>%
+  unnest(item_value_label) %>%
+  mutate(item_value_label = as.character(item_value_label),
+         item_value = rep(0:3, 7)) %>%
+  select(
+    item_number,
+    measure_short,
+    measure_long,
+    item_label_short,
+    item_label_long,
+    item_value,
+    item_value_label
+  )
 
-
-
-write_csv(gad7, "data-raw/gad7.csv")
+write_csv(gad7_unnest, "data-raw/gad7_unnest.csv")
 usethis::use_data(gad7, overwrite = TRUE)
-
 
