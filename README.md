@@ -38,6 +38,9 @@ devtools::install_github("milanwiedemann/questionnaires")
 
 ### Creating figures
 
+This example illustrates how item labels from this package can be used
+in ggplot2 figures.
+
 ``` r
 # Load packages
 library(ggplot2)
@@ -60,8 +63,8 @@ ggplot(df, aes(x = factor(item), y = score, fill = factor(item))) +
 
 ### Creating Tables
 
-This is a basic example which shows you how to create a table for the
-PHQ-9:
+This is a basic example which shows how to create a table with long
+label descriptions of the PHQ-9:
 
 ``` r
 # Load packages ----
@@ -88,15 +91,15 @@ phq9 %>%
 
 ### Reference items in text
 
-Writing in RMardown it’s easy to reference item labels in text using the
-following:
+When writing in RMardown it’s easy to reference item labels in text
+using the following:
 
 ``` r
-Most clients showed most improvement on item 1 of the GAD-7 (*"`r questionnaires::gad7[[1, 4]]`"*)
+Most clients showed most improvement on item 1 of the GAD-7 ('`r questionnaires::gad7[[1, "item_label_long"]]`')
 ```
 
-Most clients showed most improvement on item 1 of the GAD-7 (*“Feeling
-nervous, anxious”*)
+Most clients showed most improvement on item 1 of the GAD-7 (‘Feeling
+nervous, anxious or on edge’)
 
 ## How to contribute / add more questionnaires
 
