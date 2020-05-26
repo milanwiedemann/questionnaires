@@ -25,12 +25,13 @@ You can install the development version from
 devtools::install_github("milanwiedemann/questionnaires")
 ```
 
-# Available Questionnaires
+## Available Questionnaires
 
-  - Patient Health Questionnaire–9 (PHQ-9; Kroenke, Spitzer, & Williams,
+  - **Patient Health Questionnaire 9-item scale** (PHQ-9; Kroenke,
+    Spitzer, & Williams,
     [2001](https://doi.org/10.1046/j.1525-1497.2001.016009606.x))
-  - Generalized Anxiety Disorder 7-item scale (GAD-7; Spitzer, Kroenke,
-    Williams, & Löwe,
+  - **Generalized Anxiety Disorder 7-item scale** (GAD-7; Spitzer,
+    Kroenke, Williams, & Löwe,
     [2006](https://doi.org/10.1001/archinte.166.10.1092))
 
 ## Examples
