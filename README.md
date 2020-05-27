@@ -126,5 +126,5 @@ to [`data.R`](R/data.R) file in the data folder of this repositoty.
     categories for each item?
   - How could different languages of the same questionnaire be
     integrated, e.g. suffix `_en` for English, `_de` for German?
-  - This could also be integrated in a shiny app or similar, what are
-    the implications of this?
+  - This could also be integrated in a shiny app or similar, e.g. for
+    *data entry* from paper/pencil or *data collection*?

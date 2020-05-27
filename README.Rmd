@@ -130,4 +130,4 @@ Details for a new dataset needs to be added to [`data.R`](R/data.R) file in the 
 - What's a good package name, e.g. `measureme`, `measureR`, `measuRes` vs `questionnaires`?
 - What's the best data structure to store this information, especially when questionnaires are not straightforward, e.g. different repsonse categories for each item?
 - How could different languages of the same questionnaire be integrated, e.g. suffix `_en` for English, `_de` for German?
-- This could also be integrated in a shiny app or similar, what are the implications of this?
+- This could also be integrated in a shiny app or similar, e.g. for *data entry* from paper/pencil or *data collection*?

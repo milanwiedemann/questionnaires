@@ -21,11 +21,11 @@ phq9
 Patient Health Questionnaire–9 (PHQ-9; Kroenke, Spitzer, & Williams, 2001)
 }
 \details{
-Cronbach's Alpha: XX (REF)
+Cronbach's Alpha (Internal Consistency): Study 1: .86; Study 2: .89 (Kroenk, Spitzer, & Williams, 2001)
 
-Test-restest Reliability: XX (REF)
+Test-restest Reliability (48 hours, n=580): .84 (Kroenk, Spitzer, & Williams, 2001)
 
-Reliable Change Index: 6 (REF)
+Reliable Change Index: 6 (IAPT Manual, 2020)
 
 Labels are scored from 0 to 3 for all items.
 

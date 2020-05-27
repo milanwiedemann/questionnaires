@@ -25,7 +25,7 @@ Cronbach's Alpha (Internal Consistency): .92 (Spitzer, Kroenke, Williams, & Löw
 
 Test-restest Reliability (1 week, n=236): .83 (Spitzer, Kroenke, Williams, & Löwe, 2006)
 
-Reliable Change Index: 4 (REF)
+Reliable Change Index: 4 (IAPT Manual, 2020)
 
 Labels are scored from 0 to 3 for all items.
 
