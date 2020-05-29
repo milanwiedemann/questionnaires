@@ -128,3 +128,5 @@ to [`data.R`](R/data.R) file in the data folder of this repositoty.
     integrated, e.g. suffix `_en` for English, `_de` for German?
   - This could also be integrated in a shiny app or similar, e.g. for
     *data entry* from paper/pencil or *data collection*?
+  - add my functions to check the item & sum/mean range?
+  - add my functions to calculate prorated mean?
