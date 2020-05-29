@@ -15,6 +15,19 @@ The goal is to provide a catalogue of questionnaire details (e.g item
 labels, response categories, references, and more) to speed up the
 analysis and reporting of results.
 
+1.  Questionnaire data
+      - Item labels (short/long)
+      - Information about measurement, e.g. internal consistentcy,
+        test-retest reliability
+      - Information about interpretation, e.g. clinical cutoffs,
+        reliable change index
+      - Information about availability
+      - Citations
+2.  Helper functions for working with questionnaire data
+      - Check item/sum range
+      - Reproducible data correction
+      - Calculate prorated sums/means
+
 ## Installation
 
 You can install the development version from
@@ -114,6 +127,8 @@ to [`data.R`](R/data.R) file in the data folder of this repositoty.
   - Which licence would be appropriate for a data package like this?
   - What are the legal challanges with copyright, license fees … and
     does it even matter for a project like this?
+  - Would it be possible to just have short item labels for
+    questionnaires that are not free to use?
   - Which information about a measure should be available in the help
     files, e.g. internal consistentcy, test-retest reliability, cutoffs,
     … ?
