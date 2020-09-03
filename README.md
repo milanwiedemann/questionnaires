@@ -125,6 +125,7 @@ to [`data.R`](R/data.R) file in the data folder of this repositoty.
 ## TODO / TOTHINK
 
   - Which licence would be appropriate for a data package like this?
+  - maybe there should be a function to call the questionnaire e.g. get_questions("gad7", labels = "short", name = "short") and get_reponses("gad7", values = TRUE, wordings = TRUE). the functions would take the info from the underlying data sets
   - What are the legal challanges with copyright, license fees … and
     does it even matter for a project like this?
   - Would it be possible to just have short item labels for
